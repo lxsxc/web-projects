@@ -45,3 +45,15 @@ a {
 a :hover {
     box-shadow: 20px 20px 20px lightskyblue;
 }
+
+ol {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+li {
+    color: rgb(60, 228, 102);
+    box-shadow: 10px tomato;
+}
